@@ -48,14 +48,16 @@ if(perintahAwal == "1"):
     if(perintahBangunDatar == "3"):
         alas = int(input("How length is the base (cm)? "))
         tinggi = int(input("How height is the triangle (cm)? "))
-        luasSegitiga = alas * tinggi // 2
+        luasSegitiga = alas * tinggi / 2
+        luasSegitigaDibulatkan = round(luasSegitiga)
 
         alas = str(alas)
         tinggi = str(tinggi)
         luasSegitiga = str(luasSegitiga)
+        luasSegitigaDibulatkan = str(luasSegitigaDibulatkan)
 
         print("")
-        print("The wide of a Triangle if the length of the base is " + alas + " and the height of the triangle is " + tinggi + " = " + luasSegitiga + "cm2")
+        print("The wide of a Triangle if the length of the base is " + alas + " and the height of the triangle is " + tinggi + " = " + luasSegitiga + "cm2 or when rounded = " + luasSegitigaDibulatkan + "cm2")
         print("")
     else:
         print("")
