@@ -8,11 +8,13 @@ A system that is able to calculate various arithmetic operations and can find th
 - Perimeter ( Square, Rectangular, Triangle )
 - Other ( Addition, Subtraction, Multiplication, Division, Power Of Numbers )
 
-**Download The Script :**
+**Download The Script ( First Method ) :**
 ```
 - git clone https://github.com/ItzVouzz/Automatic-Calculate-System
-OR
-- Download The Latest Release On The Right Screen
+```
+**Download The Script ( Second Method ) :**
+```
+- Download The Latest Releases On The Right Screen
 ```
 **Run The Script :**
 ```
