@@ -4,7 +4,7 @@
 
 
 print(""); print("")
-print("AUTOMATIC CALCULATE SYSTEM")
+print("VOUZZ CALCULATE SYSTEM")
 print("BY ITZVOUZZ")
 print("")
 print("[1] Wide")
@@ -30,7 +30,7 @@ if(perintahAwal == "1"):
         print(f"The wide of a square if the length of the sides is {str(sisi)} = {str(luasPersegi)}cm2")
         print("")
 
-    if(perintahBangunDatar == "2"):
+    elif(perintahBangunDatar == "2"):
         panjang = int(input("How long are the sides (cm)? "))
         lebar = int(input("How wide are the sides (cm)? "))
         luasPersegiPanjang = panjang * lebar
@@ -39,7 +39,7 @@ if(perintahAwal == "1"):
         print(f"The wide of a Rectangular if the length of the sides is {str(panjang)} and the wide of the sides is {str(lebar)} = {str(luasPersegiPanjang)}cm2")
         print("")
 
-    if(perintahBangunDatar == "3"):
+    elif(perintahBangunDatar == "3"):
         alas = int(input("How length is the base (cm)? "))
         tinggi = int(input("How height is the triangle (cm)? "))
         luasSegitiga = alas * tinggi / 2
@@ -48,6 +48,7 @@ if(perintahAwal == "1"):
         print("")
         print(f"The wide of a Triangle if the length of the base is {str(alas)} and the height of the triangle is {str(tinggi)} = {str(luasSegitiga)}cm2 or when rounded = {str(luasSegitigaBulat)}cm2")
         print("")
+        
     else:
         print("")
         print("YOU MUST ENTER BETWEEN 1, 2, OR 3")
@@ -69,7 +70,7 @@ elif(perintahAwal == "2"):
         print(f"The perimeter of a square if the length of the sides is {str(sisi)} {str(kelilingPersegi)}cm")
         print("")
 
-    if(perintahBangunDatar == "2"):
+    elif(perintahBangunDatar == "2"):
         panjang = int(input("How long are the sides (cm)? "))
         lebar = int(input("How wide are the sides (cm)? "))
         kelilingPersegiPanjang = panjang + lebar + panjang + lebar
@@ -78,7 +79,7 @@ elif(perintahAwal == "2"):
         print(f"The perimeter of a Rectangular if the length of the sides is {str(panjang)} and the wide of the sides is {str(lebar)} = {str(kelilingPersegiPanjang)}cm")
         print("")
 
-    if(perintahBangunDatar == "3"):
+    elif(perintahBangunDatar == "3"):
         sisiSegitiga1 = int(input("How length is the side 1 (cm)? "))
         sisiSegitiga2 = int(input("How length is the side 2 (cm)? "))
         sisiSegitiga3 = int(input("How length is the side 3 (cm)? "))
@@ -87,6 +88,7 @@ elif(perintahAwal == "2"):
         print("")
         print(f"The perimeter of a Triangle if the length of the side 1 is {str(sisiSegitiga1)}, side 2 is {str(sisiSegitiga2)}, and the side 3 is {str(sisiSegitiga3)} = {str(kelilingSegitiga)}cm")
         print("")
+
     else:
         print("YOU MUST ENTER BETWEEN 1, 2, OR 3")
         print("") 
@@ -112,7 +114,7 @@ elif(perintahAwal == "3"):
         print(f"The result of addition the numbers {str(bilanganPertama)} and {str(bilanganKedua)} = {str(hasilTambah)}")
         print("")
 
-    if(perintahOther == "2"):
+    elif(perintahOther == "2"):
         bilanganPertama = int(input("What is the first number? "))
         bilanganKedua = int(input("What is the second number? "))
         hasilKurang = bilanganPertama - bilanganKedua
@@ -121,7 +123,7 @@ elif(perintahAwal == "3"):
         print(f"The result of subtraction the numbers {str(bilanganPertama)} and {str(bilanganKedua)} = {str(hasilKurang)}")
         print("")
 
-    if(perintahOther == "3"):
+    elif(perintahOther == "3"):
         bilanganPertama = int(input("What is the first number? "))
         bilanganKedua = int(input("What is the second number? "))
         hasilKali = bilanganPertama * bilanganKedua
@@ -130,7 +132,7 @@ elif(perintahAwal == "3"):
         print(f"The result of multiplication the numbers {str(bilanganPertama)} and {str(bilanganKedua)} = {str(hasilKali)}")
         print("")
 
-    if(perintahOther == "4"):
+    elif(perintahOther == "4"):
         bilanganPertama = int(input("What is the first number? "))
         bilanganKedua = int(input("What is the second number? "))
         hasilBagi = bilanganPertama / bilanganKedua
@@ -140,7 +142,7 @@ elif(perintahAwal == "3"):
         print(f"The result of division the numbers {str(bilanganPertama)} and {str(bilanganKedua)} = {str(hasilBagi)} or when rounded = {str(hasilBagiBulat)}")
         print("")
 
-    if(perintahOther == "5"):
+    elif(perintahOther == "5"):
         bilanganPertama = int(input("What is the first number? "))
         bilanganKedua = int(input("What is the second number? "))
         hasilPangkat = bilanganPertama ** bilanganKedua
