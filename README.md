@@ -1,4 +1,4 @@
-# Automatic Calculate System
+# VouzzCalculate System
 A system that is able to calculate various arithmetic operations and can find the wide or perimeter accurately
 
 
@@ -10,7 +10,7 @@ A system that is able to calculate various arithmetic operations and can find th
 
 **Download The Script ( First Method ) :**
 ```
-- git clone https://github.com/ItzVouzz/Automatic-Calculate-System
+- git clone https://github.com/ItzVouzz/VouzzCalculate
 ```
 **Download The Script ( Second Method ) :**
 ```
