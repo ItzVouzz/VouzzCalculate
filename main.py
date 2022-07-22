@@ -4,7 +4,7 @@
 
 
 print(""); print("")
-print("VOUZZ CALCULATE SYSTEM")
+print("CALCULATE SYSTEM")
 print("BY ITZVOUZZ")
 print("")
 print("[1] Wide")
