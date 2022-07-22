@@ -1,4 +1,4 @@
-# VouzzCalculate System
+# Calculate System
 A system that is able to calculate various arithmetic operations and can find the wide or perimeter accurately
 
 
