@@ -4,7 +4,7 @@
 
 
 print(""); print("")
-print("CALCULATE SYSTEM")
+print("VOUZZ CALCULATE SYSTEM")
 print("BY ITZVOUZZ")
 print("")
 print("[1] Wide")
@@ -23,7 +23,12 @@ if(perintahAwal == "1"):
     perintahBangunDatar = input("Which wide of Two-Dimentional figure are you looking for? ")
 
     if(perintahBangunDatar == "1"):
-        sisi = int(input("How length are the sides (cm)? "))
+        sisi = input("How length are the sides (cm)? ")
+        try:
+            sisi = int(sisi)
+        except:
+            print("You Must Input A Number")
+            exit()
         luasPersegi = sisi * sisi
 
         print("")
@@ -31,8 +36,14 @@ if(perintahAwal == "1"):
         print("")
 
     elif(perintahBangunDatar == "2"):
-        panjang = int(input("How long are the sides (cm)? "))
-        lebar = int(input("How wide are the sides (cm)? "))
+        panjang = input("How long are the sides (cm)? ")
+        lebar = input("How wide are the sides (cm)? ")
+        try:
+            panjang = int(panjang)
+            lebar = int(lebar)
+        except:
+            print("You Must Input A Number")
+            exit()
         luasPersegiPanjang = panjang * lebar
 
         print("")
@@ -40,8 +51,14 @@ if(perintahAwal == "1"):
         print("")
 
     elif(perintahBangunDatar == "3"):
-        alas = int(input("How length is the base (cm)? "))
-        tinggi = int(input("How height is the triangle (cm)? "))
+        alas = input("How length is the base (cm)? ")
+        tinggi = input("How height is the triangle (cm)? ")
+        try:
+            alas = int(alas)
+            tinggi = int(tinggi)
+        except:
+            print("You Must Input A Number")
+            exit()
         luasSegitiga = alas * tinggi / 2
         luasSegitigaBulat = round(luasSegitiga)
 
@@ -63,7 +80,12 @@ elif(perintahAwal == "2"):
     perintahBangunDatar = input("Which perimeter of Two-Dimentional figure are you looking for? ")
 
     if(perintahBangunDatar == "1"):
-        sisi = int(input("How length are the sides (cm)? "))
+        sisi = input("How length are the sides (cm)? ")
+        try:
+            sisi = int(sisi)
+        except:
+            print("You Must Input A Number")
+            exit()
         kelilingPersegi = 4 * sisi
 
         print("")
@@ -71,8 +93,14 @@ elif(perintahAwal == "2"):
         print("")
 
     elif(perintahBangunDatar == "2"):
-        panjang = int(input("How long are the sides (cm)? "))
-        lebar = int(input("How wide are the sides (cm)? "))
+        panjang = input("How long are the sides (cm)? ")
+        lebar = input("How wide are the sides (cm)? ")
+        try:
+            panjang = int(panjang)
+            lebar = int(lebar)
+        except:
+            print("You Must Input A Number")
+            exit()
         kelilingPersegiPanjang = panjang + lebar + panjang + lebar
 
         print("")
@@ -80,9 +108,16 @@ elif(perintahAwal == "2"):
         print("")
 
     elif(perintahBangunDatar == "3"):
-        sisiSegitiga1 = int(input("How length is the side 1 (cm)? "))
-        sisiSegitiga2 = int(input("How length is the side 2 (cm)? "))
-        sisiSegitiga3 = int(input("How length is the side 3 (cm)? "))
+        sisiSegitiga1 = input("How length is the side 1 (cm)? ")
+        sisiSegitiga2 = input("How length is the side 2 (cm)? ")
+        sisiSegitiga3 = input("How length is the side 3 (cm)? ")
+        try:
+            sisiSegitiga1 = int(sisiSegitiga1)
+            sisiSegitiga2 = int(sisiSegitiga2)
+            sisiSegitiga3 = int(sisiSegitiga3)
+        except:
+            print("You Must Input A Number")
+            exit()
         kelilingSegitiga = sisiSegitiga1 + sisiSegitiga2 + sisiSegitiga3
 
         print("")
@@ -106,8 +141,14 @@ elif(perintahAwal == "3"):
     perintahOther = input("What operation do you want to run? ")
 
     if(perintahOther == "1"):
-        bilanganPertama = int(input("What is the first number? "))
-        bilanganKedua = int(input("What is the second number? "))
+        bilanganPertama = input("What is the first number? ")
+        bilanganKedua = input("What is the second number? ")
+        try:
+            bilanganPertama = int(bilanganPertama)
+            bilanganKedua = int(bilanganKedua)
+        except:
+            print("You Must Input A Number")
+            exit()
         hasilTambah = bilanganPertama + bilanganKedua
 
         print("")
@@ -115,8 +156,14 @@ elif(perintahAwal == "3"):
         print("")
 
     elif(perintahOther == "2"):
-        bilanganPertama = int(input("What is the first number? "))
-        bilanganKedua = int(input("What is the second number? "))
+        bilanganPertama = input("What is the first number? ")
+        bilanganKedua = input("What is the second number? ")
+        try:
+            bilanganPertama = int(bilanganPertama)
+            bilanganKedua = int(bilanganKedua)
+        except:
+            print("You Must Input A Number")
+            exit()
         hasilKurang = bilanganPertama - bilanganKedua
 
         print("")
@@ -124,8 +171,14 @@ elif(perintahAwal == "3"):
         print("")
 
     elif(perintahOther == "3"):
-        bilanganPertama = int(input("What is the first number? "))
-        bilanganKedua = int(input("What is the second number? "))
+        bilanganPertama = input("What is the first number? ")
+        bilanganKedua = input("What is the second number? ")
+        try:
+            bilanganPertama = int(bilanganPertama)
+            bilanganKedua = int(bilanganKedua)
+        except:
+            print("You Must Input A Number")
+            exit()
         hasilKali = bilanganPertama * bilanganKedua
 
         print("")
@@ -133,8 +186,14 @@ elif(perintahAwal == "3"):
         print("")
 
     elif(perintahOther == "4"):
-        bilanganPertama = int(input("What is the first number? "))
-        bilanganKedua = int(input("What is the second number? "))
+        bilanganPertama = input("What is the first number? ")
+        bilanganKedua = input("What is the second number? ")
+        try:
+            bilanganPertama = int(bilanganPertama)
+            bilanganKedua = int(bilanganKedua)
+        except:
+            print("You Must Input A Number")
+            exit()
         hasilBagi = bilanganPertama / bilanganKedua
         hasilBagiBulat = round(hasilBagi)
 
@@ -143,8 +202,14 @@ elif(perintahAwal == "3"):
         print("")
 
     elif(perintahOther == "5"):
-        bilanganPertama = int(input("What is the first number? "))
-        bilanganKedua = int(input("What is the second number? "))
+        bilanganPertama = input("What is the first number? ")
+        bilanganKedua = input("What is the second number? ")
+        try:
+            bilanganPertama = int(bilanganPertama)
+            bilanganKedua = int(bilanganKedua)
+        except:
+            print("You Must Input A Number")
+            exit()
         hasilPangkat = bilanganPertama ** bilanganKedua
 
         bilanganPertama = str(bilanganPertama)
